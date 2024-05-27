@@ -1,0 +1,15 @@
+CARS
+_____
+
+model            - VARCHAR(255) - NOT NULL
+year             - YEAR         - NOT NULL
+color            - VARCHAR(50)
+mileage          - UNSIGNED INT
+price            - DECIMAL(10, 2) - 9999999.99 - NOT NULL
+discount_price   - DECIMAL(10, 2) - 9999999.99
+description      - MEDIUMTEXT
+poster_path      - TEXT - DEFAULT("img/car-placeholder.jpg")
+fuel_type        - VARCHAR(50)
+engine_size      - VARCHAR(50)
+doors            - TINYINT
+weight_kg        - SMALLINT
