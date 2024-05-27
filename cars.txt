@@ -13,3 +13,5 @@ fuel_type        - VARCHAR(50)
 engine_size      - VARCHAR(50)
 doors            - TINYINT
 weight_kg        - SMALLINT
+
+.
